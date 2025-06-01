@@ -9,7 +9,7 @@ if os.path.exists(README):
 
 setup(
     name="django-carch",
-    version="1.0.0",
+    version="1.0.4",
     author="Jean Marie Daniel Vianney Guedegbe",
     description="Générateur de projet Django Clean Architecture avec support DevOps",
     long_description=long_description,

@@ -9,4 +9,5 @@ django_carch/core.py
 django_carch.egg-info/PKG-INFO
 django_carch.egg-info/SOURCES.txt
 django_carch.egg-info/dependency_links.txt
+django_carch.egg-info/entry_points.txt
 django_carch.egg-info/top_level.txt

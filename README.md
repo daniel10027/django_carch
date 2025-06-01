@@ -14,7 +14,7 @@ Un générateur Django avancé pour projets en Clean Architecture + DDD + Design
 ## 📦 Installation
 
 ```bash
-pip install django-carch
+pip install django django-carch
 ```
 
 ## 📂 Utilisation

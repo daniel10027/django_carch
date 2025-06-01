@@ -1,27 +1,18 @@
 Metadata-Version: 2.4
 Name: django-carch
-Version: 1.0.0
-Summary: Générateur de projet Django Clean Architecture avec support DevOps
+Version: 1.0.1
+Summary: Générateur automatique de projets Django modulaires en Clean Architecture
 Home-page: https://github.com/daniel10027/django-cleanarch-starter/
 Author: Jean Marie Daniel Vianney Guedegbe
-Classifier: Development Status :: 5 - Production/Stable
-Classifier: Intended Audience :: Developers
-Classifier: Topic :: Software Development :: Code Generators
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Programming Language :: Python :: 3
-Classifier: Framework :: Django
-Classifier: Operating System :: OS Independent
+Author-email: Jean Marie Daniel Vianney Guedegbe <tonemail@example.com>
+License: MIT
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Dynamic: author
-Dynamic: classifier
-Dynamic: description
-Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license-file
 Dynamic: requires-python
-Dynamic: summary
 
 # django-carch
 
@@ -94,3 +85,4 @@ Développé par **Jean Marie Daniel Vianney Guedegbe**
 ---
 
 Ce package est conçu pour générer des bases solides, maintenables et prêtes pour la production pour vos projets Django modernes.
+# django_carch

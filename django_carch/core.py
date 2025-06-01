@@ -1,6 +1,7 @@
 import os
 import subprocess
 from pathlib import Path
+from importlib.resources import files
 
 def prompt(text):
     try:
@@ -59,8 +60,11 @@ TWILIO_AUTH_TOKEN=your_twilio_token
 TWILIO_PHONE_NUMBER=+1234567890
 """)
 
+
+
 def generate_documentation(project_name):
-    content = Path("../bootstrap.md").read_text().replace("$PROJECT_NAME", project_name)
+    content = files("django_carch").joinpath("bootstrap.md").read_text()
+    content = content.replace("$PROJECT_NAME", project_name)
     Path("README.md").write_text(content)
 
 def create_project(project_name, apps):
